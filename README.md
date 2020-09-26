@@ -1,1 +1,1 @@
-# The-Mininal-Day-Planner
+# Minimal Day Planner
