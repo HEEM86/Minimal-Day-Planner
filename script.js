@@ -9,7 +9,7 @@ function displayTime() {
     for ( let index = 0; index < workHours.length; index++) {
 
         var row = $("<div class = 'row'>"); // creating dynamic row
-        var col1 = $("<div class = 'col-sm-2 text-right col1'>"); // creating column within the row
+        var col1 = $("<div class = 'col-md-2 text-right col1'>"); // creating column within the row
 
         var getWorkHour = workHours[index] + "a.m.";
         console.log(getWorkHour);
@@ -27,7 +27,7 @@ function displayTime() {
         col1.append(getWorkHour);
 
         //building the second column
-        var col2 =  $("<div class = 'col-sm-8 col2'>"); // creating column within the row
+        var col2 =  $("<div class = 'col-md-8 col2'>"); // creating column within the row
 
         var textArea = $("<textarea>"); // create element
             textArea.attr("id", "textarea", + index)
