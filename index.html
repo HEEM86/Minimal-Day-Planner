@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <h1>Current Day & Time</h1>
+    <script src="/momentjs/lib/moment/moment-with-locals.min.js">
+    
+    moment().format("dddd, MMMM Do YYYY, h:mm:ss a")
+
+    moment(testDate).format('MM/DD/YYYY');
+    
+    
+    </script>
+
 
     <link
       rel="stylesheet"
@@ -25,17 +36,17 @@
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
+      <h1 class="display-3">The Minimal Work Day Scheduler</h1>
       <p class="lead">A Minimal Planner app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-        <form class="time-space" id="7AM"></form>
+    <!-- <div class="container">
+        <form class="time-space" id="9AM"></form>
         <div class="row">
           <div class="col-md-1">9AM</div>
           <div class="col-md-10 description" id="inlineFormInput"><textarea>Notes for scheduling goes here</textarea></div>
           <button type="submit" data-event="none" class="col-md-1 saveBtn"><i class="far fa-paper-plane"></i></button>
-      </div>
+      </div> -->
   
 
    <div class="container">
